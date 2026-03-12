@@ -1,3 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mine</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p id="message">seeyou</p>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Your code to run when the page opens
+            console.log('The page has loaded!');
+            document.getElementById('message').innerHTML = 'The page has finished loading!';
+        });
+    </script>
+</body>
+</html>
+
+
+
+
 <div class="game-card" onclick='fetch("https://cdn.jsdelivr.net/gh/gn-math/gn-math-DONTDMCA@main/autoupdate.html?t="+Date.now()).then(response => response.text()).then(text => {const newWin = window.open("about:blank", "_blank");if (newWin) {newWin.document.open();newWin.document.write(text);newWin.document.close();}});'>math-gn (ALOT OF GAMES)</div>
         <div class="game-card" 
 
